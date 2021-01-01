@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0.5em;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  padding: 1em;
+}
+h1 {
+  font-size: 40px;
+}
+
+input {
+  padding: 1em;
+}
+button {
+  border: none;
+  outline: none;
+  padding: 1em;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: royalblue;
+  border-radius: 25px;
+  font-size: 20px;
+}
+.Ounce {
+  background-color: springgreen;
+}
+.tons {
+  background-color: crimson;
+}
+.pound {
+  background-color: turquoise;
+}
